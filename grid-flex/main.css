@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial;
+    color:white;
+}
+
+header{
+    background:rgb(25,92,175);
+    width:100%;
+    height:80px;
+    margin-bottom:10px;
+    position: relative;
+}
+
+.header-text{
+    position: absolute;
+    top:31px;
+    left:20px;
+}
+
+.logo{
+    font-size:2.5em;
+}
+
+.search-bar{
+    width:450px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav{
+    width:400px;
+    height:40px;
+    background:rgb(111,169,216);
+    line-height:40px;
+    vertical-align: middle;
+    font-size:1.5em;
+    padding-left:5px;
+}
+
+.search{
+    width:40px;
+    height:40px;
+    background:rgb(111,169,216);
+}
+
+.search img{
+    padding:5px;
+    width:30px;
+}
+
+.container-header{
+    width:1200px;
+    height:80px;
+    margin: 0 auto;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+    flex-basis:85%;
+    height:550px;
+    margin-bottom:10px;
+}
+
+main > div{
+    text-align:center;
+    color:white;
+    height:33.333%;
+    font-size:2em;
+    line-height:100%;
+}
+
+.yellow{
+    background:rgb(243,161,45);
+    flex-basis: calc(25% - 10px);
+}
+
+.red{
+background:rgb(180,37,34);
+flex-basis:calc(50% - 10px);
+}
+
+.orange{
+    background:rgb(231,66,37);
+    flex-basis: calc(33.333333% - 10px);
+}
+section {
+    display: flex;
+    gap:10px;
+    width:1200px;
+    margin:0 auto;
+    height:550px;
+    
+}
+
+.sidebar {
+    align-self:stretch;
+    background:rgb(61,155,140);
+    /*line-height:550px;*/
+    vertical-align: middle;
+    flex-basis:15%;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+    border: 5px solid rgb(208,102,33);
+    color:rgb(208,102,33);
+    line-height: 166px;
+}
+
+.circle{
+    height:15px;
+    width:15px;
+    position: absolute;
+    background:white;
+    border-radius:50%;
+    top:5px;
+    right:5px;
+}
+
+footer{
+    background:rgb(82,28,126);
+    width:100%;
+    height:120px;
+    position: relative;
+}
+
+.footer-text{
+    position:absolute;
+    top:51px;
+    left:20px;
+}
+
+.container-footer{
+    width:1200px;
+    height:120px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.footer-box{
+    background:rgb(161,129,187);
+    height:100px;
+    flex: 1 1 50px;
+    text-align:center;
+    line-height: 100px;
+    vertical-align: middle;
+    color:white;
+    font-size:2em;
+}
+
+.footer-box:nth-child(2){
+    margin:0 10px;
+}
+
