@@ -1,17 +1,23 @@
-
+body {font-family: 'Montserrat', sans-serif;}
 .container {width:1200px;margin:0 auto}
 .grid {display:grid;grid-template-columns: auto auto auto;}
-header {min-height:95vh}
+header {min-height:95vh;background:url(back.avif);
+    background-size: cover;}
 section,article {min-height:300px}
 header,section {border:1px solid red;
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
-h1 {display: block;width:50%;height:50px;float:left}
+h1 {display: block;width:50%;height:50px;float:left;
+
+    margin:0;color:chartreuse}
 nav {display: flex;border:1px solid lime;height:50px;
-    justify-content: space-between;}
+    justify-content: space-between;align-items: center;}
 nav li {list-style-type: none;}
+nav li a {color:rgb(59, 124, 199);text-decoration:none;
+    font-weight: 900;}
+nav li a:hover {color:black;text-decoration: underline;}
 
 .box1 {
     grid-column-start: 1;
