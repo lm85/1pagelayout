@@ -9,7 +9,7 @@ header,section {border:1px solid red;
     grid-column-end: 4;
 }
 
-h1 {display: block;width:50%;height:50px;float:left;
+header h1 {display: block;width:50%;height:50px;float:left;
 
     margin:0;color:chartreuse}
 nav {display: flex;border:1px solid lime;height:50px;
@@ -22,7 +22,7 @@ nav li a:hover {color:black;text-decoration: underline;}
 .box1 {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: blue;
+    background-color:#4069AB
 }
 .box2 {
     grid-column-start: 2;
@@ -32,5 +32,16 @@ nav li a:hover {color:black;text-decoration: underline;}
 .box3 {
     grid-column-start: 3;
     grid-column-end: 4;
-    background-color: blue;
+    background-color: #4069AB
+}
+
+#about {text-align: center;padding:3px}
+#about p {width:60%;margin:auto;margin-bottom: 10px;}
+#about hr {width:50px;border:2px solid #4069AB}
+#about button {background-color: white;
+    border: 2px solid #4069AB;
+    color:#4069AB;
+    font-size:125%;
+    padding:10px 15px;
+    border-radius: 20px;
 }
